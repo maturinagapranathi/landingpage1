@@ -1,0 +1,88 @@
+body{
+  background-image: url(apple-energy-bar-near-sports-stuff_23-2147750783.avif);
+  background-repeat: no-repeat;
+  background-position: centre;
+  background-attachment: fixed;
+  background-size:cover;
+}
+.container{
+  width: 85%;
+  margin:auto;
+}
+nav{
+  height: 80px;
+}
+nav h1{
+  float:left;
+  line-height: 80px;
+  font-size: 35px;
+  font-size: inline;
+  color:#252ee3;
+}
+nav ul{
+  float:right;
+  line-height:80px;
+}
+nav ul li{
+  display:inline;
+  list-style:none;
+  padding:0px 5px;
+}
+nav ul li a{
+  color:#1930dd;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding:7px 8px;
+}
+nav  ul li a:hover{
+  background-color:#f6f3f1;
+  transition: 0.5s ease;
+
+}
+nav  ul li.active{
+  background-color: aquamarine;
+}
+.article{
+  width:50%;
+  margin:auto;
+  text-align:center;
+  transform:translateX(0vh);
+}
+.article h1{
+  font-size: 36px;
+  color:rgb(29, 15, 163);
+  letter-spacing: 1.5px;
+  font-family:800;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.article p{
+  font-size: 18px;
+  color:rgb(29, 15, 163);
+  line-height: 1.5;
+  margin-bottom:50px;
+  text-align: center;
+}
+.article h2{
+  font-size: 36px;
+  color:rgb(29, 15, 163);
+  letter-spacing: 1.5px;
+  font-family:800;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.article .btn{
+  color:rgb(29, 15, 163);
+  padding:12px 25px;
+  letter-spacing: 1.5px;
+  text-transform:uppercase ;
+  text-decoration: none;
+  background-color: rgb(14, 126, 160);
+}
+.article .btn:hover{
+  background-color:white;
+  transition: 0.5s ease;
+
+}
